@@ -1,49 +1,51 @@
 # MasoomDev Browser Extensions
 
-Official distribution repository for browser extensions developed by MasoomDev.
+Official repository for browser extensions published by **MasoomDev**.
 
+This repository currently contains **12 unique ZIP packages** in the `extensions/` directory. The links below point directly to files in this repository; they are not GitHub Release assets.
 
-## Available extension packages (source downloads)
+## Available extensions
 
-The following three ZIP files are currently in the repository. These are **repository file downloads**, not published GitHub Release assets. They were reported as working by the developer; manifest/security validation and independent browser testing have not yet been completed.
+| Extension package | Download |
+|---|---|
+| AliExpress Order Filler — v1.4.2 | [Download ZIP](https://raw.githubusercontent.com/airtronunitedkingdom-byte/extentions/main/extensions/AliExpress_Order_Filler_MasoomDev_v1.4.2.zip) |
+| AliExpress Order Filler — v1.5.9 | [Download ZIP](https://raw.githubusercontent.com/airtronunitedkingdom-byte/extentions/main/extensions/aliexpress-order-filler-v1.5.9.zip) |
+| Ghost Mode Session Switcher — extend expiry build | [Download ZIP](https://raw.githubusercontent.com/airtronunitedkingdom-byte/extentions/main/extensions/Ghost-Mode-Session-Switcher-v1_2-extend-expiry.zip) |
+| Masoom Text Expander — v1.0.4 | [Download ZIP](https://raw.githubusercontent.com/airtronunitedkingdom-byte/extentions/main/extensions/Masoom-Text-Expander-v1.0.4.zip) |
+| Masoom Text Expander — v1.1.0 Floating Icon | [Download ZIP](https://raw.githubusercontent.com/airtronunitedkingdom-byte/extentions/main/extensions/Masoom-Text-Expander-v1.1.0-Floating-Icon.zip) |
+| Pro Auto Refresher — v2 | [Download ZIP](https://raw.githubusercontent.com/airtronunitedkingdom-byte/extentions/main/extensions/Pro-Auto-Refresher-Extension-v2.zip) |
+| SHEIN Image Downloader | [Download ZIP](https://raw.githubusercontent.com/airtronunitedkingdom-byte/extentions/main/extensions/SHEIN_Image_Downloader.zip) |
+| eBay Fee & Profit Calculator — v1.0.3 | [Download ZIP](https://raw.githubusercontent.com/airtronunitedkingdom-byte/extentions/main/extensions/eBay-Fee-Profit-Calculator-v1.0.3.zip) |
+| eBay Automator — v1.5 | [Download ZIP](https://raw.githubusercontent.com/airtronunitedkingdom-byte/extentions/main/extensions/eBay_Automator_MasoomDev_v1.5.zip) |
+| eBay Growth Report — v2 | [Download ZIP](https://raw.githubusercontent.com/airtronunitedkingdom-byte/extentions/main/extensions/ebay-growth-report-extension-v2.zip) |
+| eBay Order Exporter | [Download ZIP](https://raw.githubusercontent.com/airtronunitedkingdom-byte/extentions/main/extensions/ebay-order-exporter.zip) |
+| eBay Top Rated Seller Finder — v1.1 | [Download ZIP](https://raw.githubusercontent.com/airtronunitedkingdom-byte/extentions/main/extensions/ebay-top-rated-seller-finder-v1.1.zip) |
 
-| Extension | Version | Download ZIP |
-|---|---|---|
-| Masoom Text Expander | 1.0.4 | [Download](https://raw.githubusercontent.com/shayanmila/MasoomDev-Extensions/main/extensions/Masoom-Text-Expander-v1.0.4.zip) |
-| SHEIN Image Downloader | Not confirmed | [Download](https://raw.githubusercontent.com/shayanmila/MasoomDev-Extensions/main/extensions/SHEIN_Image_Downloader.zip) |
-| eBay Fee & Profit Calculator | 1.0.3 | [Download](https://raw.githubusercontent.com/shayanmila/MasoomDev-Extensions/main/extensions/eBay-Fee-Profit-Calculator-v1.0.3.zip) |
+> The two eBay Automator filenames in the repository contain identical file content. They are represented once above to avoid duplicate entries.
 
-When formal versioned releases are published, the website download links should be migrated to verified GitHub Release assets.
+## Installation (Chrome and compatible Chromium browsers)
 
-## Downloading
-Visit **[GitHub Releases](https://github.com/shayanmila/MasoomDev-Extensions/releases)** for published, versioned extension ZIP packages. For stable versioned releases, use assets attached to a published release. Until those releases are available, the explicitly listed repository ZIP files above provide direct downloads.
+1. Download the extension ZIP file.
+2. Extract the ZIP into a folder on your device. Keep the folder in a permanent location.
+3. Open `chrome://extensions/` in Chrome (or the equivalent extensions page in your Chromium browser).
+4. Turn on **Developer mode**.
+5. Select **Load unpacked** and choose the extracted folder containing `manifest.json`.
 
-## Installing a ZIP extension on Chrome or other compatible Chromium browsers
-1. Download the ZIP file and extract it into a permanent folder.
-2. In Chrome, open `chrome://extensions/`.
-3. Enable **Developer mode**, then select **Load unpacked**.
-4. Select the extracted folder that contains `manifest.json`.
+This installation method uses Developer mode. These packages are not presented as Chrome Web Store listings.
 
-Installing unpacked extensions requires Developer mode. This repository is not a Chrome Web Store listing. Review requested browser permissions before installing.
+## Security and compatibility
 
-## Release convention
-- Create **one release per extension version** with tag `extension-slug-vX.Y.Z`.
-- Attach a tested `extension-slug-vX.Y.Z.zip` containing the working extension files.
-- Include features, compatibility, permissions, changelog, installation instructions, and a SHA-256 checksum in release notes.
-- Existing releases stay available so users can access older versions.
-- Do not publish test builds, credentials, private API keys, or archives that contain user data.
-- Do not advertise a direct-download link on the website until its asset is confirmed to exist.
+- Review an extension's requested permissions before installing it.
+- Install only packages you trust and keep a copy of the downloaded ZIP.
+- Browser compatibility and package contents may vary by extension and version.
+- The presence of a ZIP in this repository does not by itself mean that it has passed independent security review or browser testing.
 
-## Repository layout
-```
-extensions/
-  example-extension/
-    README.md
-    ... extension source files ...
-.github/workflows/
-  validate-extensions.yml
-```
+## Releases and versioning
 
-Each extension gets its own folder. Distribution ZIPs belong in **Releases** rather than in Git history, to avoid bloating the repository.
+The ZIP links above are repository-file downloads. If formal GitHub Releases are published later, their release pages and attached assets can be linked here separately. Do not describe a package as a verified release unless it is attached to a published GitHub Release.
 
-Website: https://masoomdev-website.vercel.app/
+## Repository
+
+- Source and downloads: [airtronunitedkingdom-byte/extentions](https://github.com/airtronunitedkingdom-byte/extentions)
+- Extension packages: [extensions/](https://github.com/airtronunitedkingdom-byte/extentions/tree/main/extensions)
+- Website: [MasoomDev](https://masoomdev.online)
